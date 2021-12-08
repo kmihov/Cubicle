@@ -1,0 +1,27 @@
+{
+  "name": "Cubicle",
+  "version": "1.0.0",
+  "description": "Project for Express and MongoDB training pourpece",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=development&& nodemon ./index.js",
+    "prod": "SET NODE_ENV=production && nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmihov/Cubicle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmihov/Cubicle/issues"
+  },
+  "homepage": "https://github.com/kmihov/Cubicle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
